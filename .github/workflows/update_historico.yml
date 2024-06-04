@@ -25,3 +25,5 @@ jobs:
           git add historico.txt
           git commit -m "Update historico.txt"
           git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
